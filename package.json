@@ -1,0 +1,19 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "ethereum-block-by-date": "^1.4.2",
+    "jquery": "^3.6.0",
+    "moralis-admin-cli": "^2.1.11",
+    "node-fetch": "^2.6.1",
+    "web3": "^1.5.2"
+  }
+}

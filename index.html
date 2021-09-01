@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereum Blockchain Crawler</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="display-4 mb-4" style="text-align:center"><b>Ethereum Blockchain Crawler</b></h1>
+
+        <h3 style="padding-top:50px">Get transaction data for address starting from given block</h3>
+
+        <div>
+            <label for="">Address:</label>
+        </div>
+        <div>
+            <input id="inputAddress" type="text" class="form-control">
+        </div>
+        <div>
+            <label for="">Starting block:</label>
+        </div>
+        <div>
+            <input id="inputBlock" type="text" class="form-control">
+        </div>
+        <div style="padding-top:10px">
+            <button class="btn btn-primary mr-4" id="resultTransactions">Get result!</button>
+        </div>
+
+        <div id="outputTransactions" style="padding-top:15px"></div>
+
+
+        <h3 style="padding-top:40px">Get ETH and ERC20 tokens balance for address on given date (YYYY-MM-DD)</h3>
+
+        <div>
+            <label for="">Address:</label>
+        </div>
+        <div>
+            <input id="inputAddress2" type="text" class="form-control">
+        </div>
+        <div>
+            <label for="">Date:</label>
+        </div>
+        <div>
+            <input id="inputDate2" type="text" placeholder="YYYY-MM-DD" class="form-control">
+        </div> 
+        <div style="padding-top:10px">
+            <button class="btn btn-primary mr-4" id="resultBalanceEth">Get result!</button>
+        </div>
+
+        <div id="outputBalance" style="padding-top:15px"></div>
+
+        <div style="padding-top:30px"></div>
+
+    </div>
+
+    <script src="./dist/bundle.js">
+
+    </script>
+
+</body>
+</html>
